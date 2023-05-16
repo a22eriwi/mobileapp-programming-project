@@ -1,6 +1,6 @@
 package com.example.project;
 
-import android.content.Context;
+
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -14,8 +14,8 @@ import androidx.recyclerview.widget.RecyclerView;
 
 
 public class RecyclerViewAdapter extends RecyclerView.Adapter<ViewHolder> {
-    private List<datan> datalistan;
-    public RecyclerViewAdapter(List<datan> datalistan) {
+    private List<Cities> datalistan;
+    public RecyclerViewAdapter(List<Cities> datalistan) {
         this.datalistan = datalistan;
     }
     @Override
@@ -27,7 +27,7 @@ public class RecyclerViewAdapter extends RecyclerView.Adapter<ViewHolder> {
 
     @Override
     public void onBindViewHolder(@NonNull ViewHolder holder, int position) {
-        holder.name.setText(datalistan'.get(position).getName());
+        holder.name.setText(datalistan.get(position).getName());
         holder.size.setText(String.valueOf(datalistan.get(position).getSize()));
     }
 
