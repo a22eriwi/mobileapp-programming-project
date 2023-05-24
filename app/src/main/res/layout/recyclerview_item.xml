@@ -9,12 +9,14 @@
         android:layout_width="110dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
-        android:text="@string/text1" />
+        android:text="@string/text1"
+        android:textSize="20sp" />
 
     <TextView
         android:id="@+id/size"
         android:layout_width="110dp"
         android:layout_height="wrap_content"
-        android:text="@string/text2" />
+        android:text="@string/text2"
+        android:textSize="20sp" />
 
 </LinearLayout>
